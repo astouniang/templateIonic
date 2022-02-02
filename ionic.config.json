@@ -1,0 +1,7 @@
+{
+  "name": "dark",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

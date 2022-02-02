@@ -1,0 +1,26 @@
+<ion-content class="mainbackground">
+<div class="form-box">
+
+ 
+ <div class="logo"><img src="../../../assets/images/logoicon.svg" class="w-100"></div>
+ <div class="title">Sign In With Social</div>
+ 
+ <ul class="social">
+ <li><a><i class="fab fa-facebook-f"></i></a></li>
+ <li><a><i class="fab fa-twitter"></i></a></li>
+ <li><a><i class="fab fa-linkedin-in"></i></a></li>
+ </ul>
+  <div class="or">OR</div>
+ <form>
+   <div class="form-group">
+      <input type="text" class="form-control" id="username" placeholder="Username" name="Username" required="">
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control" id="password" placeholder="Password" name="Password" required="">
+    </div>
+      <button type="submit" class="theme btn btn-primary" (click)="dashboardPage()">Sign In</button>
+      <div class="forgot"> <a (click)="forgotpasswordPage()">Forgot your password?</a></div>
+ </form>
+ </div>
+<div class="footer-link"> Don't have account? <a (click)="registerPage()">Sign up</a></div>
+</ion-content>
